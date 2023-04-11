@@ -165,16 +165,16 @@ export default function Home() {
     <>
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
-          {/*<h1 className="text-2xl py-3 font-bold leading-[1.1] tracking-tighter text-center flex items-center justify-center">*/}
-          {/*  Chat With Your Legal Llama <Image*/}
-          {/*  src="/llama.png"*/}
-          {/*  alt="Llama"*/}
-          {/*  width="25"*/}
-          {/*  height="25"*/}
-          {/*  className={styles.boticon}*/}
-          {/*  priority*/}
-          {/*/>*/}
-          {/*</h1>*/}
+          <h1 className="text-2xl py-3 font-bold leading-[1.1] tracking-tighter text-center flex items-center justify-center">
+            Chat With Your Legal Llama <Image
+            src="/llama.png"
+            alt="Llama"
+            width="25"
+            height="25"
+            className={styles.boticon}
+            priority
+          />
+          </h1>
           <div className="mx-auto flex flex-row gap-4">
           <main className={styles.main}>
             <div className={styles.cloud}>

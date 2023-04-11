@@ -28,7 +28,7 @@ export const run = async () => {
     const embeddings = new OpenAIEmbeddings();
     const index = pinecone.Index(PINECONE_INDEX_NAME);
 
-    //embed the PDF documents
+    //embed the scraped text
     await PineconeStore.fromDocuments(docs, embeddings, {
       pineconeIndex: index,
       namespace: PINECONE_NAME_SPACE,
